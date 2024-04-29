@@ -1,0 +1,190 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 70px;
+    /* border: 1px solid black; */
+    /* background-color: black; */
+}
+.parent{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+.icons{
+    padding: 10px;
+    display: flex; 
+    margin: 5px; 
+}
+.search{
+    margin-left: 20px;
+    display: flex;
+}
+.logo_name{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+.btn{
+    margin: 15px;
+    padding: 1px 1px;
+    /* background-color: black;  */
+    color: white;
+    border: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+ 
+  .btn_1{
+    background-color: black; 
+    color: white;
+    margin: 10px;
+    padding: 7px;
+  }
+  .btn_1:hover {
+    background-color: black;
+    color: lightgray;
+    transition: background-color 0.3s;
+  }
+  .btn_2{
+    background-color: white; 
+    color: black;
+    border: none;
+    padding: 7px;
+  }
+  .btn_2:hover {
+    background-color: black;
+    color: white; 
+  }
+  .li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.a:hover{
+    background-color: rgb(182, 176, 176); 
+    color: rgb(196, 0, 0);
+    transition: background-color 0.3s;
+    border: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.list_items{
+   margin: 10px;
+}
+hr{
+    color: wheat;
+}
+img{
+    height: 130px;
+    width: 231px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.parent_card{
+    display: flex;
+    height: 10px;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+}
+.card{
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+.card_heading{
+    width: 300px;
+    margin-left: 20px;
+}
+.card_text{
+    width: 300px;
+    margin-left: 20px;
+}
+.card_img{
+    width: auto;
+    height: auto;
+}
+.rows{
+    display: flex;
+}
+.card_row_3{
+    width: 600;
+    text-align: right;
+    margin-left: 50px;
+
+}
+.imgg{
+    height: 130px;
+    width: 300px;    ;
+}
+.imggg{
+    height: 300px;
+    width: 462px;
+}
+.footer{
+    margin-left: 20px;
+}
+.rows, .section2{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.card_row_3{
+    width: 600;
+    text-align: right;
+}
+.card_heading_articels{
+    text-align: left;
+}
+.card_text_articels{
+    text-align: left;
+    width: 100%;
+}
+.card_footer_articels{
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+}
+
+.section2{
+    display: flex;
+}
+.lady{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    margin-left: 10px;
+}
+.cancer{
+    height: 300px;
+    width: 500px;
+    margin-left: 10px;
+}
+.section3{
+    display: flex;
+justify-content: center;
+}
+.tennis{
+    width: 760px;
+}
+.imag{
+    height: 500px;
+    width: 1300px;
+    display: flex;
+}
